@@ -1,8 +1,9 @@
 ## How to open project and view the blueprint
 ### Load the whole project
-1. Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine. 
-2. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen. The camera blueprint shold be opened in the same way.
-3. Switch between levels: It in the **scene folder** which has 3 buttons, the broadcast room and locker room is easy for GPU to load, the stadium is hard for GPU.
+1. Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine.
+  ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/3.png)
+3. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen. The camera blueprint shold be opened in the same way.
+4. Switch between levels: It in the **scene folder** which has 3 buttons, the broadcast room and locker room is easy for GPU to load, the stadium is hard for GPU.
 ### Access code base only
 Both camera algorithm and crowd sim can run without the project. You can simplely create a new project in your unreal engine and import the two folders to your Content folder.
 ## Crowd simulation
