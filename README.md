@@ -2,7 +2,7 @@
 Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen.
 ## Crowd simulation
 ### Some constant (repeated to use or use to store the information) 
-1. Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below.
+1. Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below.  
 ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/1.png)
 ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/2.png)  
 2. `Get Spline Length()`: which is used to calculate the length of the crowd spline.
