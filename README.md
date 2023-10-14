@@ -1,6 +1,13 @@
-# How to view the blueprint
-Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen.
+## How to open project and view the blueprint
+### Load the whole project
+1. Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine. 
+2. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen. The camera blueprint shold be opened in the same way.
+3. Switch between levels: It in the **scene folder** which has 3 buttons, the broadcast room and locker room is easy for GPU to load, the stadium is hard for GPU.
+### Access code base only
+Both camera algorithm and crowd sim can run without the project. You can simplely create a new project in your unreal engine and import the two folders to your Content folder.
 ## Crowd simulation
+### How to use it
+Drag the crowd sim blueprint in the screen. You will see a man on the screen. If we want to longer the crowd line: click the white ball while press Alt, drag the line and there will be more people shown on the screen.
 ### Some constant (repeated to use or use to store the information) 
 1. Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below. 
 2. `Get Spline Length()`: which is used to calculate the length of the crowd spline.  
