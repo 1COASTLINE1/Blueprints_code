@@ -7,8 +7,8 @@ Firstly, download the whole project. Copy or cut it into the project folder and 
 ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/2.png)
 2.`Get Spline Length()`: which is used to calculate the length of the crowd spline.
 ### Event Graph
-1.`EventBeginPlay`: It uses the index of each model to load the animation to every character, also provide the way to change the animation.
-2.`EventTick`: is similar to the main function and run the `Play()`, which will be explained below. 
+1. `EventBeginPlay`: It uses the index of each model to load the animation to every character, also provide the way to change the animation.
+2. `EventTick`: is similar to the main function and run the `Play()`, which will be explained below. 
 ### Construction Script
 `Construction Script` is the tool which privide the real time viewport. It also provides the users options for one side crowd or two side crowd. One side crowd uses `AddLine()` once, two side crowd uses `AddLine()` twice, one of which reverse the direction. `AddLine()` will also be explained below.
 ### Play( )
