@@ -1,8 +1,9 @@
 # How to view the blueprint
 Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine. To view the crowd simulation blueprint, go to the Content folder -> AssetLibrary -> 4_BPTool -> Spline_ManFlow, double click the Spline_ManFlow( the ball ), and the blueprint window should be shown in the screen.
 ## Crowd simulation
-### Skeletal Mesh Array
-It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below.
+### Some constant (repeated to use or use to store the information) 
+1.Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below.
+2.`Get Spline Length()`: which is used to calculate the length of the crowd spline.
 ### Event Graph
 1.`EventBeginPlay`: It uses the index of each model to load the animation to every character, also provide the way to change the animation.
 2.`EventTick`: is similar to the main function and run the `Play()`, which will be explained below. 
