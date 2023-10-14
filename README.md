@@ -3,7 +3,7 @@ Firstly, download the whole project. Copy or cut it into the project folder and 
 ## Crowd simulation
 ### Some constant (repeated to use or use to store the information) 
 1. Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below. 
-2. `Get Spline Length()`: which is used to calculate the length of the crowd spline.
+2. `Get Spline Length()`: which is used to calculate the length of the crowd spline.  
 ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/1.png)
 ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/2.png) 
 ### Event Graph
