@@ -1,4 +1,6 @@
 ## How to open project and view the blueprint
+1. assetfolder is for camera alogrism
+2. AssetLibrary is for crowd simulation
 ### Load the whole project
 1. Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine.
   ![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/3.png)
