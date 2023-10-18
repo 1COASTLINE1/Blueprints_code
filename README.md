@@ -1,5 +1,5 @@
 ## How to open project and view the blueprint
-    The read me file for cmamera algorism is in the comments in the blueprints file
+    The read me file for camera algorism is in the comments in the algorism blueprints file
 1. **assetfolder** is for camera algorism
 2. **AssetLibrary** is for crowd simulation
 ### Load the whole project
