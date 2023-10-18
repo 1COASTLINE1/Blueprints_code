@@ -1,5 +1,6 @@
 ## How to open project and view the blueprint
-1. **assetfolder** is for camera alogrism
+    The read me file for cmamera algorism is in the comments in the blueprints file
+1. **assetfolder** is for camera algorism
 2. **AssetLibrary** is for crowd simulation
 ### Load the whole project
 1. Firstly, download the whole project. Copy or cut it into the project folder and the project should be seen in the unreal engine.
