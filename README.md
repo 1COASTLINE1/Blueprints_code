@@ -44,6 +44,8 @@ Overall, the right part of code in `Add Line()`,  `Line Trace By Channel()`, `Se
 The main difference of `Add Line()` is that it divides the Spline section by section to located each character.
 ## UI system
 ### How to run the UI 
-It's in the Content folder:double click it and run the play button.
-![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/2.png) 
+It's in the Content folder:double click the "MainMenu" and run the play button.  
+![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/ui.png) 
+
+
 
