@@ -13,7 +13,7 @@
 Both camera algorithm and crowd sim can run without the project. You can simplely create a new project in your unreal engine and import the two folders to your Content folder.
 ## Crowd simulation
 ### How to use it
-Drag the crowd sim blueprint in the screen. You will see a man on the screen. If we want to longer the crowd line: click the white ball while press Alt, drag the line and there will be more people shown on the screen.
+Drag the crowd sim blueprint in the screen. You will see a man on the screen. If we want to longer the crowd line: click the white ball while press Alt, drag the line and there will be more people shown on the screen. You can adjust the parameters through the right-side parameter panel.
 ### Some constant (repeated to use or use to store the information) 
 1. Skeletal Mesh Array: It stores all the information(keys and values ) of all the characters, which will be repeatedly used by the function below. 
 2. `Get Spline Length()`: which is used to calculate the length of the crowd spline.  
