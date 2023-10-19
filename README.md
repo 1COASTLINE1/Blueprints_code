@@ -42,4 +42,8 @@ Similar to read the `Play()`, we need to follow the main process order(the white
 
 Overall, the right part of code in `Add Line()`,  `Line Trace By Channel()`, `Setworld Transform()` together with the rotation part work the same in `Play()`.
 The main difference of `Add Line()` is that it divides the Spline section by section to located each character.
+## UI system
+### How to run the UI 
+It's in the Content folder:double click it and run the play button.
+![image](https://github.com/1COASTLINE1/Blueprints_code/blob/main/Screen%20shot/2.png) 
 
